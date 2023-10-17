@@ -7,11 +7,9 @@ import './App.css'
 
 function App() {
   return (
-    <>
-      <Routes>
-        <Route path="*" element={<TodoList />} />
-      </Routes>
-    </>
+    <Routes>
+      <Route path="*" element={<TodoList />} />
+    </Routes>
   );
 }
 
